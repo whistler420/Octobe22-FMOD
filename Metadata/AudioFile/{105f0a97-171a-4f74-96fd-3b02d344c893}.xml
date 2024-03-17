@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{105f0a97-171a-4f74-96fd-3b02d344c893}">
+		<property name="assetPath">
+			<value>sfx/sfx_superjumpprep.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.504</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fb447b90-36b3-49bd-95c7-902275816066}</destination>
+		</relationship>
+	</object>
+</objects>

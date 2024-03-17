@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8c999df9-6c9a-4fe0-a095-9b18ef1458e5}">
+		<property name="assetPath">
+			<value>music/mu_industrial.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>144.03916666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fb447b90-36b3-49bd-95c7-902275816066}</destination>
+		</relationship>
+	</object>
+</objects>

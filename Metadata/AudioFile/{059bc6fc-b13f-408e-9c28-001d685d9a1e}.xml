@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{059bc6fc-b13f-408e-9c28-001d685d9a1e}">
+		<property name="assetPath">
+			<value>sfx/sfx_box.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.2016249999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fb447b90-36b3-49bd-95c7-902275816066}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{63e7b34d-eb72-4bba-80af-9c900362ff1f}">
+		<property name="assetPath">
+			<value>music/mu_entrance.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>217.88733333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fb447b90-36b3-49bd-95c7-902275816066}</destination>
+		</relationship>
+	</object>
+</objects>

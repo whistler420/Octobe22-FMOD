@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{8f69e295-20f2-4c58-8443-9035bd3194f9}">
+		<property name="name">
+			<value>3-EQ</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6df38bfc-7df9-4567-b641-ea603bed7f77}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{12961da3-de07-4378-ad4f-6af8ad99eacf}</destination>
+		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{12961da3-de07-4378-ad4f-6af8ad99eacf}">
+		<property name="midGain">
+			<value>-80</value>
+		</property>
+		<property name="highGain">
+			<value>-15</value>
+		</property>
+		<property name="lowCrossover">
+			<value>22000</value>
+		</property>
+		<property name="highCrossover">
+			<value>22000</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{32c03495-e518-4f0c-8df8-74c24adb906b}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{32c03495-e518-4f0c-8df8-74c24adb906b}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>lowCrossover</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{5b27a5ff-67c8-4aea-b1af-5a1c775f3ba0}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{5b27a5ff-67c8-4aea-b1af-5a1c775f3ba0}">
+		<relationship name="parameter">
+			<destination>{e980823e-deb9-465a-88dc-a10bedd4fcc3}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{5870c356-900c-4272-bc2b-8f6667820324}</destination>
+			<destination>{8f799f10-ed14-432c-8968-0bd1f679720c}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{5870c356-900c-4272-bc2b-8f6667820324}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>22000</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8f799f10-ed14-432c-8968-0bd1f679720c}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>600</value>
+		</property>
+	</object>
+</objects>
