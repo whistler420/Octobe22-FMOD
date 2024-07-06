@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{bab511b7-8a91-4e53-aebc-779527e91723}">
 		<property name="name">
-			<value>SFX</value>
+			<value>sfx</value>
 		</property>
 		<relationship name="automators">
 			<destination>{f45380be-8ab4-4ebf-bafa-ff60722f54c3}</destination>
